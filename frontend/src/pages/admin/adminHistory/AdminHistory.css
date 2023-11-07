@@ -1,0 +1,108 @@
+.earnings__main {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-top: 50px;
+}
+
+.earnings__inside {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.earnings__numOf__paid {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(3, 84, 3);
+  width: 200px;
+  height: 100px;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.paid__items {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.paid__num {
+  font-size: 30px;
+  color: white;
+}
+
+.paid__p {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.earnings__numOf__unpaid {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(96, 3, 3);
+  width: 200px;
+  height: 100px;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.earnings__numOf__total {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(48, 3, 96);
+  width: 200px;
+  height: 100px;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.unpaid__p {
+  color: white;
+  font-size: 25px;
+}
+
+.earnings__title {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  min-width: 400px;
+  background-color: rgb(180, 180, 67);
+  border-radius: 12px;
+  color: black;
+}
+
+.earnings__title__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user__data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: rgb(22, 99, 99);
+  min-width: 400px;
+  min-height: 100px;
+  border-radius: 12px;
+  color: white;
+  padding: 10px;
+}
+
+.user__p {
+  font-size: 25px;
+}
+
+.user__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

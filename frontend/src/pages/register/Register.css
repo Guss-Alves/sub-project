@@ -1,0 +1,78 @@
+/* main / color divs */
+.register__main {
+  display: flex;
+  /* position: relative;
+  top: 160px; */
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.register__color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0.933);
+}
+
+/* form main divs */
+.register__form__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* main div for inputs */
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* single inputs */
+.input {
+  width: 90%;
+}
+
+/* form color */
+.register__form__color {
+  background-color: rgb(246, 246, 246);
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* form tittle */
+.register__title {
+  font-size: 25px;
+  color: rgb(186, 186, 2);
+  font-weight: 800;
+  margin-bottom: -15px;
+}
+
+/* form error message */
+.error {
+    margin: -30px;
+    color: red;
+    position: relative;
+    top: -10px;
+}
+
+/* form btn */
+.register__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    border-radius: 12px;
+    width: 100px;
+    height: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(186, 186, 2);
+    cursor: pointer;
+}

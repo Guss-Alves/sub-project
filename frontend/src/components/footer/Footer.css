@@ -1,0 +1,18 @@
+.footer__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px -10px 5px rgb(234, 231, 231);
+  height: 120px;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.daycare {
+  font-size: 20px;
+  color: rgb(180, 180, 67);
+}
+.slogan {
+  font-size: 17px;
+}

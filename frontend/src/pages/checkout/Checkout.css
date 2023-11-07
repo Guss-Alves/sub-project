@@ -1,0 +1,65 @@
+.check__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 100%; */
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.check__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.check__explanation {
+  font-family: "Courier New", Courier, monospace;
+  box-shadow: 12px 12px 12px 12px rgb(221, 217, 217);
+  width: 90%;
+
+  padding: 30px;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+.move__check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.check__schedules {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.check__p {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.check__total {
+  font-size: 20px;
+  color: rgb(161, 37, 37);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+}
+
+.checkout__btn {
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.no__schedule {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}

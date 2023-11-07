@@ -1,0 +1,43 @@
+.code__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.code__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  gap: 100px;
+}
+
+.code__p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 20px;
+  line-break: anywhere;
+  width: 350px;
+  color: rgb(13, 72, 52);
+}
+
+
+.code__title {
+    margin-bottom: 10px;
+}
+
+.code__title {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(14, 98, 70);
+}
+
+.text {
+    text-transform: capitalize;
+    font-weight: 600;
+}

@@ -1,0 +1,64 @@
+.client__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.client__color {
+  margin-top: 20px;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  padding: 15px;
+  color: rgb(254, 254, 254);
+  font-size: 20px;
+  width: 450px;
+  height: 150px;
+}
+
+.client__balance {
+  display: flex;
+  gap: 30px;
+}
+
+.client__name {
+  text-transform: capitalize;
+  color: black;
+  font-weight: 600;
+}
+
+.client__email {
+  color: rgb(84, 82, 82);
+  font-weight: 800;
+}
+
+.client__paid {
+  color: rgb(25, 89, 25);
+  font-weight: 600;
+}
+
+.client__unpaid {
+  color: rgb(184, 52, 52);
+  font-weight: 600;
+}
+
+.check__btn {
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+
+.move {
+left: 0;
+}
+
+.client__blocked {
+  color: rgb(184, 52, 52);
+  font-weight: 600;
+}
+
+
+.check__btn__div {
+  display: flex;
+  gap: 30px;
+}

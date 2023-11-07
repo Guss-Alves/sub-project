@@ -1,0 +1,129 @@
+/* main div */
+.welcome__main {
+  display: flex;
+  position: relative;
+  top: 100px;
+  justify-content: center;
+  align-items: center;
+
+  max-height: 100%;
+}
+
+.welcome__color {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 248, 255, 0.933);
+}
+
+/* text div */
+.welcome__text {
+  position: relative;
+  left: -80px;
+  width: 40%;
+}
+
+.welcome__h1 {
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+.welcome__p {
+  font-size: 17px;
+  color: grey;
+}
+
+.welcome__span {
+  color: rgb(180, 180, 67);
+}
+
+.welcome__links {
+  display: flex;
+  gap: 40px;
+  position: relative;
+  top: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(180, 180, 67);
+  width: 70px;
+  height: 30px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* img */
+.welcome__img {
+  position: relative;
+  right: -110px;
+  float: right;
+}
+
+.welcome__mainImg {
+  width: 500px;
+}
+
+/* responsive */
+@media screen and (max-width: 900px) {
+  .welcome__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .welcome__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    line-break: normal;
+    left: 5px;
+    padding: 20px;
+  }
+  .welcome__h1 {
+    text-transform: capitalize;
+    font-size: 35px;
+  }
+  .welcome__p {
+    /* text-transform: capitalize; */
+    font-size: 17px;
+    color: rgb(80, 80, 80);
+  }
+  .welcome__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .welcome__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+  }
+
+  .welcome__mainImg {
+    width: 400px;
+    background-color: rgba(240, 248, 255, 0.933);
+  }
+
+  .welcome__color {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.933);
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .welcome__main {
+    top: 25px;
+  }
+}
